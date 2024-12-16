@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Appointment Date"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/font"
+        android:fontFamily="@font/amarante"/>
+
+    <EditText
+        android:id="@+id/editAppointmentDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dropdown"
+        android:hint="YYYY-MM-DD"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:textColor="@color/font"
+        android:textColorHint="@color/font"
+        android:fontFamily="@font/amarante"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Session"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/font"
+        android:fontFamily="@font/amarante"/>
+
+    <Spinner
+        android:id="@+id/sessionSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:background="@color/dropdown"
+        android:textColor="@color/font"
+        android:fontFamily="@font/amarante"/>
+</LinearLayout>

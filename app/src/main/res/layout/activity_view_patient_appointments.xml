@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/uibg"
+    android:gravity="center_horizontal">
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/patients_appointments"
+        android:textSize="24sp"
+        android:textColor="@color/font"
+        android:fontFamily="@font/amarante"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"/>
+    <RadioGroup
+        android:id="@+id/categorySelector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_horizontal">
+
+        <RadioButton
+            android:id="@+id/radioDoctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/doctor_appointments"
+            android:checked="true"
+            android:textColor="@color/font"
+            android:fontFamily="@font/amarante"/>
+
+        <RadioButton
+            android:id="@+id/radioPhysicalTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/physical_test_appointments"
+            android:textColor="@color/font"
+            android:fontFamily="@font/amarante"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/drop2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Patient from following Dropdown Menu"
+        android:textSize="14sp"
+        android:textColor="@color/font"
+        android:textStyle="bold"
+        android:fontFamily="@font/amarante"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        />
+
+    <Spinner
+        android:id="@+id/patientSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:background="@color/dropdown"
+        android:fontFamily="@font/amarante"
+        android:textColor="@color/font"
+        android:layout_marginBottom="16dp"/>
+
+    <ListView
+        android:id="@+id/appointmentListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/button"
+        android:dividerHeight="1dp"
+        android:background="@color/listview_bg"
+        android:fontFamily="@font/amarante"/>
+</LinearLayout>

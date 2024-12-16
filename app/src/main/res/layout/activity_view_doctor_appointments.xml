@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/uibg"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Doctor Appointments"
+        android:textSize="20sp"
+        android:textColor="@color/font"
+        android:textStyle="bold"
+        android:fontFamily="@font/amarante"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
+        />
+
+    <Spinner
+        android:id="@+id/doctorSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/dropdown"
+        android:fontFamily="@font/amarante"
+        android:minHeight="48dp"
+        android:spinnerMode="dropdown"
+        android:background="@color/dropdown"/>
+
+    <ListView
+        android:id="@+id/appointmentListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/button"
+        android:dividerHeight="1dp"
+        />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="uibg">#990011</color>
+    <color name="font">#FFF9C4</color>
+    <color name="button">#F3B941</color>
+    <color name="box">#003366</color>
+    <color name="hint">#FFFFFF</color>
+    <color name="colorPrimary">#990011</color>
+    <color name="colorPrimaryDark">#660008</color>
+    <color name="colorAccent">#FCF6F5</color>
+    <color name="dropdown">#001F54</color>
+    <color name="listview_bg">#1C1C1C</color>
+    <color name="selected_icon_color">#FF5733</color>
+    <color name="unselected_icon_color">#607D8B</color>
+</resources>

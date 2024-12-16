@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="@color/uibg">
+
+    <TextView
+        android:id="@+id/doctormanagementtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/amarante"
+        android:gravity="center_horizontal"
+        android:text="@string/inventory_management"
+        android:textColor="@color/font"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="120dp"/>
+
+    <Button
+        android:id="@+id/addItemButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:padding="12dp"
+        android:text="Add Item"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/button"
+        android:fontFamily="@font/amarante"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/updateItemButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:padding="12dp"
+        android:text="Update Item"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/button"
+        android:fontFamily="@font/amarante"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/deductItemButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:padding="12dp"
+        android:text="Deduct Item"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/button"
+        android:fontFamily="@font/amarante"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/viewItemButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:padding="12dp"
+        android:text="View Item"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/button"
+        android:fontFamily="@font/amarante"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"/>
+
+</LinearLayout>

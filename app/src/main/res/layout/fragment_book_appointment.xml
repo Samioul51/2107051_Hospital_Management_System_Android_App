@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="@color/uibg">
+    <TextView
+        android:id="@+id/text_upcoming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Appointments"
+        android:fontFamily="@font/amarante"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/font"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/doctorBookingButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+
+        android:backgroundTint="@color/button"
+        android:fontFamily="@font/amarante"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:text="Doctor"
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="32dp"
+       />
+
+    <Button
+        android:id="@+id/physicalTestBookingButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/button"
+        android:fontFamily="@font/amarante"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:text="Physical Test"
+    />
+
+</LinearLayout>

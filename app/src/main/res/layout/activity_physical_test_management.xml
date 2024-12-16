@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/uibg"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/physicaltestmanagementtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/amarante"
+        android:gravity="center_horizontal"
+        android:text="Physical Test Management"
+        android:textColor="@color/font"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="120dp"/>
+
+    <Button
+        android:id="@+id/addTestButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Add Test"
+        android:backgroundTint="@color/button"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/amarante"
+        />
+
+    <Button
+        android:id="@+id/updateTestButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Update Test"
+        android:backgroundTint="@color/button"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/amarante"/>
+
+    <Button
+        android:id="@+id/assignAssistantButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Assign Medical Assistant"
+        android:backgroundTint="@color/button"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/amarante"/>
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/uibg"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/itemNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amarante"
+        android:hint="Item Name"
+        android:backgroundTint="@color/box"
+        android:background="@color/box"
+        android:textColorHint="@color/black"
+        android:textColor="@color/font"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/itemQuantityInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/box"
+        android:background="@color/box"
+        android:textColorHint="@color/black"
+        android:textColor="@color/font"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/amarante"
+        android:hint="Quantity"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/itemDescriptionInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/box"
+        android:background="@color/box"
+        android:textColorHint="@color/black"
+        android:textColor="@color/font"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/amarante"
+        android:hint="Description"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/addItemButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:padding="12dp"
+        android:text="Add Item"
+        android:backgroundTint="@color/button"
+        android:textColor="@color/black"
+        android:fontFamily="@font/amarante"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/deductItemButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:padding="12dp"
+        android:text="Deduct Item"
+        android:backgroundTint="@color/button"
+        android:textColor="@color/black"
+        android:fontFamily="@font/amarante"
+        android:layout_marginTop="16dp"/>
+
+    <ListView
+        android:id="@+id/inventoryListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/button"
+        android:dividerHeight="1dp" />
+</LinearLayout>

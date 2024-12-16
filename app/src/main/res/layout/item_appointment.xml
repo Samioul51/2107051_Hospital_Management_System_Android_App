@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@android:color/white"
+    android:elevation="2dp"
+    android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/text_appointment_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/amarante" />
+    <Button
+        android:id="@+id/button_cancel_appointment"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/button"
+        android:fontFamily="@font/amarante"
+        android:text="Cancel"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+</LinearLayout>

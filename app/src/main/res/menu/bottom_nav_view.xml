@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Profile"
+        android:id="@+id/home"
+        android:icon="@drawable/outline_account_circle_24"
+        />
+    <item android:title="Book Appointment"
+        android:id="@+id/appointments"
+        android:icon="@drawable/baseline_health_and_safety_24"/>
+
+    <item android:title="Schedule"
+        android:id="@+id/schedule"
+        android:icon="@drawable/baseline_checklist_rtl_24"/>
+</menu>

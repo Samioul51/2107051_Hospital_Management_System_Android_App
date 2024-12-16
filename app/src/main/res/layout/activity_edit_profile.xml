@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/uibg"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:textSize="20sp"
+        android:textColor="@color/font"
+        android:textStyle="bold"
+        android:fontFamily="@font/amarante"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
+        />
+
+    <EditText
+        android:id="@+id/fullNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:backgroundTint="@color/box"
+        android:background="@color/box"
+        android:textColorHint="@color/font"
+        android:textColor="@color/font"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/amarante"/>
+
+    <EditText
+        android:id="@+id/phoneEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:backgroundTint="@color/box"
+        android:background="@color/box"
+        android:textColorHint="@color/font"
+        android:textColor="@color/font"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/amarante"/>
+
+    <EditText
+        android:id="@+id/addressEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:backgroundTint="@color/box"
+        android:background="@color/box"
+        android:textColorHint="@color/font"
+        android:textColor="@color/font"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/amarante"/>
+
+    <TextView
+        android:id="@+id/noteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Note: You cannot change E-mail, Sex, Date of Birth and Blood Group."
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/amarante"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/updateProfileButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/button"
+        android:fontFamily="@font/amarante"
+        android:text="Update"
+        android:onClick="onUpdateProfile"/>
+
+</LinearLayout>

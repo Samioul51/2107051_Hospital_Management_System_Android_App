@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp"
+    android:layout_margin="8dp"
+    android:id="@+id/card_view_appointment"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/patientName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patient's Name: "
+            android:textSize="16sp"
+            android:fontFamily="@font/amarante"
+            android:textColor="@color/font" />
+
+        <TextView
+            android:id="@+id/appointmentDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Appointment Date: "
+            android:textSize="14sp"
+            android:fontFamily="@font/amarante"
+            android:textColor="@color/font"/>
+
+        <TextView
+            android:id="@+id/serialNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Serial Number: "
+            android:textSize="14sp"
+            android:fontFamily="@font/amarante"
+            android:textColor="@color/font"/>
+
+        <TextView
+            android:id="@+id/patientPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patient Phone Number: "
+            android:textSize="14sp"
+            android:fontFamily="@font/amarante"
+            android:textColor="@color/font"/>
+
+        <TextView
+            android:id="@+id/session"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Session: "
+            android:textSize="14sp"
+            android:fontFamily="@font/amarante"
+            android:textColor="@color/font"/>
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status: "
+            android:textSize="14sp"
+            android:fontFamily="@font/amarante"
+            android:textColor="@color/font"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

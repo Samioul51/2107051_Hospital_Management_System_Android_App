@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><style name="CustomHelperTextAppearance" parent="TextAppearance.MaterialComponents.Caption">
+    <item name="fontFamily">@font/amarante</item>
+    <item name="android:textColor">@color/font</item>
+    <item name="android:textSize">9sp</item>
+</style>
+    <style name="arrow_down" parent="Widget.AppCompat.Spinner">
+        <item name="android:backgroundTint">@color/button</item>
+    </style>
+</resources>

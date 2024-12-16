@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">Samioul_2107051</string>
+    <string name="HospitalName">TruHope Hospital</string>
+    <string name="Slogan">Where healing begins and hope is renewed</string>
+    <string name="HospitalLogo">Hospital Logo</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="full_name">Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="sex">Sex</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="blood_group">Blood Group</string>
+    <string name="hometown">Hometown</string>
+    <string name="select_admin_type">Select Admin Type</string>
+    <string name="super_admin">Super Admin</string>
+    <string name="doctor_scheduler">Doctor Scheduler</string>
+    <string name="receptionist">Receptionist</string>
+    <string name="billing_admin">Billing Admin</string>
+    <string name="doctor">Doctor</string>
+    <string name="welcome_to_mainactivity">Welcome to MainActivity!</string>
+    <string name="sign_up_successful">Sign Up Successful!</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="address">Address</string>
+    <string name="username">Username</string>
+    <string name="superadmin_login">Superadmin Login</string>
+    <string name="billing_personnel_login">Billing Personnel Login</string>
+    <string name="doctor_login">Doctor Login</string>
+    <string name="doctor_scheduler_login">Doctor Scheduler Login</string>
+    <string name="receptionist_login">Receptionist Login</string>
+    <string name="todo">TODO</string>
+    <string name="available_doctors">Available Doctors</string>
+    <string name="available_tests">Available Tests</string>
+    <string name="log_out">Log Out</string>
+    <string name="phone">Phone:</string>
+    <string name="emailcolon">Email:</string>
+    <string name="namecolon">Name:</string>
+    <string name="profile_information">Profile Information</string>
+    <string name="availability">Availability</string>
+    <string name="specialty">Specialty</string>
+    <string name="doctor_name">Doctor Name</string>
+    <string name="test_name">Test Name</string>
+    <string name="doctors">Doctors</string>
+    <string name="appointment_date">Appointment Date</string>
+    <string name="appointment_time">Appointment Time</string>
+    <string name="patient_name">Patient Name</string>
+    <string name="patient_phone_number">Patient Phone Number</string>
+    <string name="book_appointment">Book Appointment</string>
+    <string name="navigation_drawer_open">Open Drawer</string>
+    <string name="navigation_drawer_close">Close Drawer</string>
+    <string name="title_activity_user_dashboard">UserDashboardActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="doctor_appointment">Doctor Appointment</string>
+    <string name="logout">Logout</string>
+    <string name="past_appointments">Past Appointments</string>
+    <string name="my_profile">My Profile</string>
+    <string name="physical_test_appointment">Physical Test Appointment</string>
+    <string name="upcoming_appointments">Upcoming Appointments</string>
+    <string name="test">Test</string>
+    <string name="appointment">Appointment</string>
+    <string name="history">History</string>
+    <string name="home">Home</string>
+    <string name="appointments">Appointments</string>
+    <string name="doctor_appointments">Doctor Appointments</string>
+    <string-array name="staff_categories">
+        <item>Nurse</item>
+        <item>Pharmacist</item>
+        <item>Ward Boy</item>
+        <item>Receptionist</item>
+        <item>Guard</item>
+        <item>Doctor Scheduler</item>
+        <item>Medical Assistant</item>
+    </string-array>
+    <string-array name="inventory_types">
+        <item>Hospital</item>
+        <item>Pharmacy</item>
+    </string-array>
+    <string-array name="sessions_array">
+        <item>Morning (9 AM - 12 PM)</item>
+        <item>Evening (6 PM - 9 PM)</item>
+    </string-array>
+
+    <string-array name="blood_groups">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_doctor">Add Doctor</string>
+    <string name="update_doctor">Update Doctor</string>
+    <string name="delete_doctor">Delete Doctor</string>
+    <string name="room_number">Room Number</string>
+    <string name="assign_room">Assign Room</string>
+    <string name="doctor_management">Doctor Management</string>
+    <string name="assign_room_to_doctor">Assign Room to Doctor</string>
+    <string name="delete_doctor_unassign_scheduler">Delete Doctor / Unassign Scheduler</string>
+    <string name="assign_scheduler">Assign Scheduler</string>
+    <string name="select_scheduler">Select Scheduler</string>
+    <string name="select_doctor">Select Doctor</string>
+    <string name="unassign_scheduler">Unassign Scheduler</string>
+    <string name="update_doctor_informations">Update Doctor Informations</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="assign_rooms_to_doctors">Assign Rooms to Doctors</string>
+    <string name="patient_management">Patient Management</string>
+    <string name="patients_informations">Patients Informations</string>
+    <string name="update_patients_informations">Update Patients Informations</string>
+    <string name="patients_appointments">Patients Appointments</string>
+    <string name="physical_test_appointments">Physical Test Appointments</string>
+    <string name="staff_management">Staff Management</string>
+    <string name="add_staffs">Add Staffs</string>
+    <string name="staff_name">Staff Name</string>
+    <string name="nid">NID</string>
+    <string name="delete_staffs">Delete Staffs</string>
+    <string name="staffs_informations">Staffs Informations</string>
+    <string name="inventory_management">Inventory Management</string>
+    <string name="assign_medical_assistant">Assign Medical Assistant</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="enter_your_email_address_to_receive_a_password_reset_link">Enter your Email Address to receive a password reset link</string>
+
+
+</resources>

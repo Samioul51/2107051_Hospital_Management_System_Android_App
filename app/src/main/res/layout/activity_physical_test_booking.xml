@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/uibg"
+    android:gravity="center_horizontal">
+
+  <TextView
+      android:id="@+id/titleTextView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Physical Test Booking"
+      android:textSize="20sp"
+      android:textColor="@color/font"
+      android:textStyle="bold"
+      android:fontFamily="@font/amarante"
+      android:layout_marginTop="16dp"
+      android:layout_marginBottom="32dp"
+      />
+
+  <!-- Test Name (Read-Only) -->
+  <EditText
+      android:id="@+id/editTextTestName"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:layout_marginBottom="8dp"
+      android:background="@color/box"
+      android:backgroundTint="@color/box"
+      android:focusable="false"
+      android:fontFamily="@font/amarante"
+      android:hint="Test Name"
+      android:minHeight="48dp"
+      android:padding="12dp"
+      android:textColor="@color/font"
+      android:textColorHint="@color/font" />
+
+  <EditText
+      android:id="@+id/editTextDate"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"
+      android:background="@color/box"
+      android:backgroundTint="@color/box"
+      android:focusable="false"
+      android:fontFamily="@font/amarante"
+      android:hint="Test Date"
+      android:minHeight="48dp"
+      android:padding="12dp"
+      android:textColor="@color/font"
+      android:textColorHint="@color/font" />
+
+  <EditText
+      android:id="@+id/editTextPatientName"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"
+      android:background="@color/box"
+      android:backgroundTint="@color/box"
+      android:fontFamily="@font/amarante"
+      android:hint="Patient Name"
+      android:inputType="textPersonName"
+      android:minHeight="48dp"
+      android:padding="12dp"
+      android:textColor="@color/font"
+      android:textColorHint="@color/font" />
+
+  <EditText
+      android:id="@+id/editTextPatientPhone"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="32dp"
+      android:background="@color/box"
+      android:backgroundTint="@color/box"
+      android:fontFamily="@font/amarante"
+      android:hint="Patient Phone Number"
+      android:inputType="phone"
+      android:minHeight="48dp"
+      android:padding="12dp"
+      android:textColor="@color/font"
+      android:textColorHint="@color/font" />
+
+  <Button
+      android:id="@+id/btnBookTest"
+      android:layout_width="150dp"
+      android:layout_height="50dp"
+      android:layout_marginTop="16dp"
+      android:backgroundTint="@color/button"
+      android:fontFamily="@font/amarante"
+      android:padding="12dp"
+      android:textColor="@color/black"
+      android:text="Book"
+      />
+</LinearLayout>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#990011"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/patients_informations"
+        android:textSize="24sp"
+        android:textColor="@color/font"
+        android:fontFamily="@font/amarante"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/drop2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Patient from following Dropdown Menu"
+        android:textSize="14sp"
+        android:textColor="@color/font"
+        android:textStyle="bold"
+        android:fontFamily="@font/amarante"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        />
+
+    <Spinner
+        android:id="@+id/patientSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:layout_marginBottom="20dp"
+        android:background="@color/dropdown"
+        android:minHeight="48dp"/>
+
+    <TableLayout
+        android:id="@+id/patientTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:stretchColumns="1"
+        android:background="@android:color/transparent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp">
+            <TextView
+                android:text="Full Name"
+                android:fontFamily="@font/amarante"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:background="@drawable/table_border"/>
+
+            <TextView
+                android:id="@+id/patientFullName"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:fontFamily="@font/amarante"
+                android:background="@drawable/table_border"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/amarante"
+                android:background="@drawable/table_border"/>
+
+            <TextView
+                android:id="@+id/patientEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/amarante"
+                android:background="@drawable/table_border"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp">
+            <TextView
+                android:text="Phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/amarante"
+                android:background="@drawable/table_border"/>
+
+            <TextView
+                android:id="@+id/patientPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/amarante"
+                android:background="@drawable/table_border"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp">
+            <TextView
+                android:text="Sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/amarante"
+                android:background="@drawable/table_border"/>
+
+            <TextView
+                android:id="@+id/patientSex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/amarante"
+                android:background="@drawable/table_border"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp">
+            <TextView
+                android:text="Date of Birth"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/amarante"
+                android:background="@drawable/table_border"/>
+
+            <TextView
+                android:id="@+id/patientDOB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/amarante"
+                android:background="@drawable/table_border"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp">
+            <TextView
+                android:text="Blood Group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/amarante"
+                android:background="@drawable/table_border"/>
+
+            <TextView
+                android:id="@+id/patientBloodGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/amarante"
+                android:background="@drawable/table_border"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp">
+            <TextView
+                android:text="Address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/amarante"
+                android:background="@drawable/table_border"/>
+
+            <TextView
+                android:id="@+id/patientAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/amarante"
+                android:background="@drawable/table_border"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

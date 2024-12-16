@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/uibg"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book Doctor Appointment"
+        android:textSize="20sp"
+        android:textColor="@color/font"
+        android:textStyle="bold"
+        android:fontFamily="@font/amarante"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
+        />
+    <!-- Doctor's Name (Read-Only) -->
+    <EditText
+        android:id="@+id/editTextDoctorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@color/box"
+        android:backgroundTint="@color/box"
+        android:focusable="false"
+        android:fontFamily="@font/amarante"
+        android:hint="Doctor Name"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:textColor="@color/font"
+        android:textColorHint="@color/font" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@color/box"
+        android:backgroundTint="@color/box"
+        android:focusable="false"
+        android:fontFamily="@font/amarante"
+        android:hint="Appointment Date"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:textColor="@color/font"
+        android:textColorHint="@color/font" />
+
+    <EditText
+        android:id="@+id/editTextPatientName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@color/box"
+        android:backgroundTint="@color/box"
+        android:fontFamily="@font/amarante"
+        android:hint="Patient Name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:textColor="@color/font"
+        android:textColorHint="@color/font" />
+
+    <EditText
+        android:id="@+id/editTextPatientPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@color/box"
+        android:backgroundTint="@color/box"
+        android:fontFamily="@font/amarante"
+        android:hint="Patient Phone Number"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:textColor="@color/font"
+        android:textColorHint="@color/font" />
+
+    <RadioGroup
+        android:id="@+id/sessionRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp">
+
+        <RadioButton
+            android:id="@+id/morningSessionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Morning (9 AM - 12 PM)"
+            android:textColor="@color/font"
+            android:layout_marginEnd="16dp"
+            android:textSize="12sp"
+            android:fontFamily="@font/amarante"/>
+
+        <RadioButton
+            android:id="@+id/eveningSessionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/font"
+            android:text="Evening (6 PM - 9 PM)"
+            android:textSize="12sp"
+            android:fontFamily="@font/amarante"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnBookAppointment"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/button"
+        android:fontFamily="@font/amarante"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:text="Book"
+       />
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/uibg">
+
+    <TextView
+        android:id="@+id/doctorDashboardtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/amarante"
+        android:gravity="center_horizontal"
+        android:text="Doctor Dashboard"
+        android:textColor="@color/font"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewRoomInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:backgroundTint="#131312">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textDoctorName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doctor: "
+                android:textSize="16sp"
+                android:textColor="@color/font"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/amarante"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textRoomInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Room: "
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/font"
+                android:fontFamily="@font/amarante"/>
+
+            <TextView
+                android:id="@+id/textSpecialtyInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Specialty: "
+                android:textSize="16sp"
+                android:textColor="@color/font"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/amarante"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textSchedulerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Scheduler : "
+                android:textSize="16sp"
+                android:textColor="@color/font"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/amarante"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Patients"
+        android:fontFamily="@font/amarante"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:textColor="@color/font"
+        android:layout_marginTop="16dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewAppointments"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/amarante"/>
+
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/resetPasswordButton"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:padding="12dp"
+            android:text="Reset Password"
+            android:backgroundTint="@color/button"
+            android:textColor="@color/black"
+            android:fontFamily="@font/amarante"
+            android:layout_marginEnd="16dp"/>
+
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:padding="12dp"
+            android:text="Log Out"
+            android:fontFamily="@font/amarante"
+            android:backgroundTint="@color/button"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+</LinearLayout>
