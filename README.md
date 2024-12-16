@@ -22,7 +22,7 @@ A comprehensive Hospital Management System Android application designed to strea
   - Add, update, and delete doctor profiles.
   - Assign or change room numbers.
 - **Staff Management**:
-  - Add, update, and remove staff members.
+  - Add, update and remove staff members.
   - Assign roles (Receptionist, Nurse etc.).
   - View staff details and schedules.
 - **Inventory Management**:
@@ -30,10 +30,8 @@ A comprehensive Hospital Management System Android application designed to strea
   - Add and view current items.
 - **Patient Management**:
   - Update patient information.
-  - Reset patient passwords.
 - **Physical Test Management**:
-  - Schedule physical tests and manage patient queues.
-  - View test details and availability.
+  - Manage Physical Tests
 - **Appointments Overview**:
   - Doctors can view appointments for the current day and the next week.
 
