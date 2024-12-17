@@ -19,7 +19,7 @@ A comprehensive Hospital Management System Android application designed to strea
 
 ### Admin-Specific Features
 - **Doctor Management**:
-  - Add, update, and delete doctor profiles.
+  - Add, update and delete doctor profiles.
   - Assign or change room numbers.
 - **Staff Management**:
   - Add, update and remove staff members.
